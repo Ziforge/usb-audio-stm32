@@ -2,6 +2,11 @@
 
 USB Audio Class 2.0 (UAC2) implementation for STM32L476 using TinyUSB 0.9.0.
 
+## Authors
+
+- **George Redpath** ([@Ziforge](https://github.com/Ziforge)) - Hardware testing, bug testing, and implementation
+- **Claude** (Anthropic) - Code assistance
+
 ## Overview
 
 This implementation provides USB Audio output (device → host) at 48kHz/16-bit stereo using adaptive mode (no feedback endpoint required for TinyUSB 0.9.0).
@@ -83,4 +88,11 @@ For proper USB audio support, recommend STM32H750 (Daisy Seed):
 
 ## License
 
-Based on work from Plinky Synth (open source).
+**Non-Commercial Use Only**
+
+This code is provided for educational, personal, and non-commercial use only.
+You may use, modify, and share this code for non-commercial purposes with attribution.
+
+For commercial licensing inquiries, contact the author.
+
+Based on work from [Plinky Synth](https://github.com/plinkysynth/plinky_public) (open source).
